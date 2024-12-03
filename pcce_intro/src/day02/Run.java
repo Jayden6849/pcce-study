@@ -26,8 +26,11 @@ public class Run {
 		
 		System.out.println("=== Solution03 ===");
 		Solution03 s3 = new Solution03();
-		
-		s3.solution(1, 2, 3, 4);
+
+		int[] r1 = s3.solution(1, 2, 3, 4);
+		System.out.println(Arrays.toString(r1));
+		int[] r2 = s3.solution(9, 2, 1, 3);
+		System.out.println(Arrays.toString(r2));
 		
 		System.out.println("=== Solution04 ===");
 		Solution04 s4 = new Solution04();
