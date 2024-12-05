@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Test {
 	public static void main(String[] args) {
-		int[] array = {1, 2, 3, 3, 3, 4};
+		int[] array = {1, 2, 3, 4, 1, 2, 2, 2, 2, 3};
 		
 		int[] count = new int[2000];
 		int n;
@@ -23,15 +23,22 @@ public class Test {
 		
 		System.out.println(max);
 		
-		int result = -1;
+		int answer = 0;
 		
+		int chk = 0;
 		for(int i=0; i<count.length; i++) {
 			if(max == count[i]) {
-				result = i;
-			} 
+				answer = i;
+				chk++;
+			}
 		}
 		
-		System.out.println(result);
+		if(chk != 1) { 
+			for(int i=0; i<count.length; i++) {
+				answer = -1;
+			}
+		}
 		
+		System.out.println(answer);
 	}
 }
