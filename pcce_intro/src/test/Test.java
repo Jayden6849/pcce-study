@@ -4,41 +4,32 @@ import java.util.Arrays;
 
 public class Test {
 	public static void main(String[] args) {
-		int[] array = {1, 2, 3, 4, 1, 2, 2, 2, 2, 3};
+		int n = 29;
 		
-		int[] count = new int[2000];
-		int n;
-		
-		for(int i=0; i<array.length; i++) {
-			n = array[i];
-			count[n]++;
-		}
-		
-		System.out.println(Arrays.toString(count));
-		
-		int max = count[0];
-		for(int i=0; i<count.length; i++) {
-			if(max<count[i]) max = count[i];
-		}
-		
-		System.out.println(max);
-		
-		int answer = 0;
-		
-		int chk = 0;
-		for(int i=0; i<count.length; i++) {
-			if(max == count[i]) {
-				answer = i;
-				chk++;
-			}
-		}
-		
-		if(chk != 1) { 
-			for(int i=0; i<count.length; i++) {
-				answer = -1;
-			}
-		}
-		
-		System.out.println(answer);
+		int[] temp = new int[1000];
+        
+        int cnt=0;
+        for(int i=1; i<=n; i++) {
+        	if(n%i == 0) {
+		        temp[cnt] = i;
+		        cnt++;
+	        }
+        }
+        
+        int length = 0;
+        
+        for(int i=0; i<temp.length; i++) {
+        	if(temp[i] != 0) length = i+1;
+        }
+        
+        System.out.println(length);
+        System.out.println(Arrays.toString(temp));
+        
+        int[] answer = new int[length];
+        
+        for(int i=0; i<answer.length; i++) {
+        	answer[i] = temp[i];
+        }
+        System.out.println(Arrays.toString(answer));
 	}
 }
