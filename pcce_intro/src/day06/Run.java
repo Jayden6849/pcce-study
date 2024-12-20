@@ -7,8 +7,10 @@ public class Run {
 		Solution01 s1 = new Solution01();
 		System.out.println(s1.solution("jaron"));
 		System.out.println(s1.solution("bread"));
-		// 2.
+		// 2. 직각삼각형 출력하기
 		System.out.println("=== 2번 ===");
+		Solution02 s2 = new Solution02();
+		s2.solution();
 		// 3. 
 		System.out.println("=== 3번 ===");
 		// 4.
