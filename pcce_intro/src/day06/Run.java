@@ -18,7 +18,9 @@ public class Run {
 		Solution03 s3 = new Solution03();
 		System.out.println(Arrays.toString(s3.solution(new int[] {1, 2, 3, 4, 5})));
 		System.out.println(Arrays.toString(s3.solution(new int[] {1, 3, 5, 7})));	
-		// 4.
+		// 4. 문자 반복 출력하기
 		System.out.println("=== 4번 ===");
+		Solution04 s4 = new Solution04();
+		System.out.println(s4.solution("hello", 3));
 	}
 }
