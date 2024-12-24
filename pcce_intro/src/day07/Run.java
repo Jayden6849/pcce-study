@@ -6,5 +6,6 @@ public class Run {
 		Solution01 s1 = new Solution01();
 		System.out.println(s1.solution("abcdef", "f"));
 		System.out.println(s1.solution("BCBdbe", "B"));
+		// 2. 
 	}
 }
