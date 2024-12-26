@@ -12,5 +12,9 @@ public class Run {
 		System.out.println(s2.solution(91));
 		System.out.println(s2.solution(180));
 		// 3. 양꼬치
+		Solution03 s3 = new Solution03();
+		System.out.println(s3.solution(10, 3));
+		System.out.println(s3.solution(64, 6));
+		// 4. 짝수의 합
 	}
 }
