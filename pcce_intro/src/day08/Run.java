@@ -17,6 +17,10 @@ public class Run {
 		System.out.println(s2.solution(100));
 		// 3. 진료순서 정하기
 		System.out.println("===== 3번 ======");
+		Solution03 s3 = new Solution03();
+		System.out.println(Arrays.toString(s3.solution(new int[] {3,76,24})));
+		System.out.println(Arrays.toString(s3.solution(new int[] {1,2,3,4,5,6,7})));
+		System.out.println(Arrays.toString(s3.solution(new int[] {30,10,23,6,100})));
 		// 4. 순서쌍의 개수
 		System.out.println("===== 4번 ======");
 	}
