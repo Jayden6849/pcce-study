@@ -23,5 +23,8 @@ public class Run {
 		System.out.println(Arrays.toString(s3.solution(new int[] {30,10,23,6,100})));
 		// 4. 순서쌍의 개수
 		System.out.println("===== 4번 ======");
+		Solution04 s4 = new Solution04();
+		System.out.println(s4.solution(20));
+		System.out.println(s4.solution(100));
 	}
 }
