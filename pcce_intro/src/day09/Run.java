@@ -13,7 +13,7 @@ public class Run {
 		Solution02 s2 = new Solution02();
 		System.out.println(s2.solution(".... . .-.. .-.. ---"));
 		System.out.println(s2.solution(".--. -.-- - .... --- -."));
-		// 3.
+		// 3. 
 		System.out.println("===== 3번 ======");
 		// 4.
 		System.out.println("===== 4번 ======");
