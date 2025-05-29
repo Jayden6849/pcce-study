@@ -7,17 +7,21 @@ public class Run {
         System.out.println("===== 1번 ======");
         Solution01 s1 = new Solution01();
 
+
         // 2. 369게임
         System.out.println("===== 2번 ======");
         Solution02 s2 = new Solution02();
+
 
         // 3. 암호 해독
         System.out.println("===== 3번 ======");
         Solution03 s3 = new Solution03();
 
+
         // 4. 대문자와 소문자
         System.out.println("===== 4번 ======");
         Solution04 s4 = new Solution04();
+
     }
 
 }
