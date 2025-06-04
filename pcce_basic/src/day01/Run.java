@@ -3,21 +3,20 @@ package day01;
 public class Run {
 	
 	public static void main(String[] args) {
-		// 1. 
+		// 1. 문자열 출력하기
 		System.out.println("===== 1번 ======");
-		Solution01 s1 = new Solution01();
 		
-		// 2. 
+		// 2. a와 b 출력하기
 		System.out.println("===== 2번 ======");
-		Solution02 s2 = new Solution02();
 		
-		// 3. 
+		// 3. 문자열 반복해서 출력하기
 		System.out.println("===== 3번 ======");
-		Solution03 s3 = new Solution03();
 		
-		// 4. 
+		// 4. 대소문자 바꿔서 출력하기
 		System.out.println("===== 4번 ======");
-		Solution04 s4 = new Solution04();
+
+		// 5. 특수문자 출력하기
+		System.out.println("===== 5번 ======");
 	}
 	
 }
