@@ -17,6 +17,8 @@ public class Run {
 
         // 5. 문자열 겹쳐쓰기
         Solution05 s5 = new Solution05();
+        System.out.println(s5.solution("He11oWor1d", "lloWorl", 2));
+        System.out.println(s5.solution("Program29b8UYP", "merS123", 7));
     }
 
 }
