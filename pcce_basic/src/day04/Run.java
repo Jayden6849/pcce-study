@@ -27,8 +27,6 @@ public class Run {
         Solution05 s5 = new Solution05();
         System.out.println(s5.solution(-4, 7, true));
         System.out.println(s5.solution(-4, 7, false));
-
-
     }
 
 }
