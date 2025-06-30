@@ -4,7 +4,7 @@ public class Run {
 
     public static void main(String[] args) {
         // 1. 배열 만들기 5
-        Solution01 s1 = new Solution01()
+        Solution01 s1 = new Solution01();
 
         // 2. 부분 문자열 이어 붙여 문자열 만들기
         Solution02 s2 = new Solution02();
