@@ -15,6 +15,8 @@ public class Run {
 
         // 3. 문자열의 뒤의 n글자
         Solution03 s3 = new Solution03();
+        System.out.println(s3.solution("ProgrammerS123", 11));
+        System.out.println(s3.solution("He110W0r1d", 5));
 
         // 4. 접미사 배열
         Solution04 s4 = new Solution04();
