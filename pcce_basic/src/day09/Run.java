@@ -11,6 +11,7 @@ public class Run {
 
         // 2. 부분 문자열 이어 붙여 문자열 만들기
         Solution02 s2 = new Solution02();
+        System.out.println(s2.solution(new String[]{"progressive", "hamburger", "hammer", "ahocorasick"}, new int[][]{{0,4}, {1,2}, {3,5}, {7,7}}));
 
         // 3. 문자열의 뒤의 n글자
         Solution03 s3 = new Solution03();
