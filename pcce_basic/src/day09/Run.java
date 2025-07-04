@@ -20,6 +20,8 @@ public class Run {
 
         // 4. 접미사 배열
         Solution04 s4 = new Solution04();
+        System.out.println(Arrays.toString(s4.solution("banana")));
+        System.out.println(Arrays.toString(s4.solution("programmers")));
 
         // 5. 접미사인지 확인하기
         Solution05 s5 = new Solution05();
