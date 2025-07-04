@@ -25,6 +25,10 @@ public class Run {
 
         // 5. 접미사인지 확인하기
         Solution05 s5 = new Solution05();
+        System.out.println(s5.solution("banana", "ana"));
+        System.out.println(s5.solution("banana", "nan"));
+        System.out.println(s5.solution("banana", "wxyz"));
+        System.out.println(s5.solution("banana", "abanana"));
 
     }
 
