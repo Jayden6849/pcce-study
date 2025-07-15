@@ -22,10 +22,13 @@ public class Run {
 
         // 4. 세로 읽기
         Solution04 s4 = new Solution04();
+        System.out.println(s4.solution("ihrhbakrfpndopljhygc", 4, 2));
+        System.out.println(s4.solution("programmers", 1, 1));
 
         // 5. qr code
         Solution05 s5 = new Solution05();
-
+        System.out.println(s5.solution(3,1,"qjnwezgrpirldywt"));
+        System.out.println(s5.solution(1,0,"programmers"));
     }
 
 }
