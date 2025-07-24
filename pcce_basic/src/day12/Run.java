@@ -20,8 +20,14 @@ public class Run {
 
         // 4. 2의 영역
         Solution04 s4 = new Solution04();
+        System.out.println(Arrays.toString(s4.solution(new int[]{1, 2, 1, 4, 5, 2, 9})));
+        System.out.println(Arrays.toString(s4.solution(new int[]{1, 2, 1})));
+        System.out.println(Arrays.toString(s4.solution(new int[]{1, 1, 1})));
+        System.out.println(Arrays.toString(s4.solution(new int[]{1, 2, 1, 2, 1, 10, 2, 1})));
+
         // 5. 배열 조각하기
         Solution05 s5 = new Solution05();
+        System.out.println(Arrays.toString(s5.solution(new int[]{0, 1, 2, 3, 4, 5}, new int[]{4, 1, 2})));
     }
 
 }
