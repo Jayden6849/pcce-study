@@ -16,6 +16,8 @@ public class Run {
 
         // 3. 할 일 목록
         Solution03 s3 = new Solution03();
+        System.out.println(Arrays.toString(s3.solution(new String[]{"problemsolving", "practiceguitar", "swim", "studygraph"}, new boolean[]{true, false, true, false})));
+
         // 4. n보다 커질 때까지 더하기
         Solution04 s4 = new Solution04();
         // 5. 수열과 구간 쿼리 1
