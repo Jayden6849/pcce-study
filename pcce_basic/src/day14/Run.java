@@ -20,6 +20,9 @@ public class Run {
 
         // 4. n보다 커질 때까지 더하기
         Solution04 s4 = new Solution04();
+        System.out.println(s4.solution(new int[] {34, 5, 71, 29, 100, 34}, 123));
+        System.out.println(s4.solution(new int[] {58, 44, 27, 10, 100}, 139));
+
         // 5. 수열과 구간 쿼리 1
         Solution05 s5 = new Solution05();
     }
